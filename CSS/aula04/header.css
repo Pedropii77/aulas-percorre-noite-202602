@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 50px;
+}
+
+#foto-perfil {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#usuario {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-top: 2px;
+}
