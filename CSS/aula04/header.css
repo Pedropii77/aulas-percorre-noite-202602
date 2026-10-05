@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    background-color: black;
+    background-color: rebeccapurple;
 }
 
 header {
@@ -24,4 +26,31 @@ header {
     justify-content: space-between;
     margin-right: 10px;
     margin-top: 2px;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    padding-left: 19px;
+    /* text-decoration: none remove o sublinhado do link ou quaisquer outras decorações que uma tag textual possa ter */
+    text-decoration: none;
+}
+
+#nome-usuario {
+    font-family: "Archivo Black", sans-serif;
+}
+
+#header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: black;
+    height: 400px;
+}
+
+#direitos {
+    color: white;
+    font-size: 30px;
 }
